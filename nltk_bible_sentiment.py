@@ -103,6 +103,12 @@ bibleDirs = os.listdir(rootdir)
 allBooksSentiments = {}
 b = 0
 
+books_ordered = ['Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua', 'Judges', 
+'Ruth', '1Samuel', '2Samuel', '1Kings', '2Kings', '1Chronicles', '2Chronicles', 'Ezra', 'Nehemiah', 
+'Esther', 'Job', 'Psalms', 'Proverbs', 'Ecclesiastes', 'SongOfSolomon', 'Isaiah', 'Jeremiah',
+'Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos', 'Obadiah', 'Jonah', 'Micah', 'Nahum', 
+'Habakkuk', 'Zephaniah', 'Haggai', 'Zechariah', 'Malachi']
+
 for d in bibleDirs:
 	# print dirs
 	# for file in files:
